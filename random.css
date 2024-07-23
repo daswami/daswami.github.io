@@ -1,0 +1,162 @@
+/* General Reset and Body Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Updated font for a modern feel */
+    color: #333333;
+    background-color: #F7F7F7; /* Neutral background for a clean look */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styling */
+header {
+    background-color: #003a6c; /* Medium Blue for a sophisticated touch */
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.cta-button {
+    background-color: #4caf50; /* Lighter Green for Call to Action */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px;
+}
+
+.cta-button:hover {
+    background-color: #388e3c;
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.hero h2 {
+    font-size: 1.8em;
+    color: #003a6c; /* Medium Blue for main headings */
+    max-width: 60%;
+}
+
+.hero img {
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.bio-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.bio-content img {
+    border-radius: 10px;
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.bio-content p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    color: #003a6c; /* Medium Blue for skill titles */
+    font-size: 1.2em;
+}
+
+.skill p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* Contact Section Styling */
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-button {
+    background-color: #42a5f5; /* Light Blue for contact buttons */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-button:hover {
+    background-color: #1e88e5;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003a6c; /* Medium Blue for footer */
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
