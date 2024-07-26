@@ -1,0 +1,285 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #003a6c; /* Medium Blue for a sophisticated touch */
+    color: #FFFFFF;
+    padding: 20px 0;
+    
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    position: sticky;
+    
+}
+
+.nav-name h1 {
+    margin: 0;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    padding-bottom: 4px;
+    border-bottom:  4px solid #4CAF50;
+}
+
+.nav-contact button {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.nav-contact button:hover {
+    background-color: #e0e0e0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+    background-color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 0.5em 0 0 0;
+}
+
+.hero-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.trusted-by {
+    text-align: center;
+    padding: 2em;
+    background-color: #f1f1f1;
+}
+
+.trusted-by h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.company-logos img {
+    margin: 0 15px;
+    width: 100px;
+    height: auto;
+}
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin-top: 4vh;
+}
+.about-me-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    border-top: 5px solid #003a6c; /* Adjust color and thickness */
+}
+.about-me-container::after {
+    content: "";
+    position: absolute;
+    height: 60%;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%);
+    border-left: 5px solid #003a6c; /* Adjust the color and thickness */
+}
+.about-me-text {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.about-me-text h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.about-me-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+.about-me-video {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#interested {
+    background-color: #f1f1f1;
+}
+.skill-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.skill {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.skill h3 {
+    color: #003a6c; /* Medium Blue for skill titles */
+    font-size: 1.2em;
+    height: 20%;
+}
+
+.skill p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.skills button {
+    display: block;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 2em auto 0 auto;
+}
+
+.skills button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #003a6c; /* Medium Blue for footer */
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.contact-links a {
+    margin: 0 10px;
+}
+
+.contact-links img {
+    width: 40px;
+    height: 40px;
+}
+
+.headline-backlog {
+    display: none;
+    color: blue;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-button {
+    background-color: #4caf50; /* Lighter Green for Call to Action */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #388e3c;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-button {
+    background-color: #42a5f5; /* Light Blue for contact buttons */
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.contact-button:hover {
+    background-color: #1e88e5;
+}
