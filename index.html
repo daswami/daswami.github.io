@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I'm Dilan Swami</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -20,9 +20,7 @@
                         <li><a href="experience.html">Impact</a></li>
                     </ul>
                 </div>
-                <div class="nav-contact">
-                    <button onclick="location.href='contact.html'">Contact Me</button>
-                </div>
+                <a href="#contact" class="cta-button">Contact Me</a>
             </div>
         </nav>
     </header>
@@ -51,44 +49,59 @@
                 <img src="images/uofm.png" alt="University of Michigan">
             </div>
         </section>
-        <section class="about-me">
-            <h2>About Me</h2>
-            <p>I am passionate about technology and teamwork. My goal is to leverage my skills in software engineering and sales to help companies achieve their business objectives. I am driven by the desire to solve real-world problems and make a positive impact.</p>
-            <button onclick="location.href='testimonials.html'">What my team thinks</button>
+        <section class="about-me-container">
+            <div class="about-me-text">
+                <h2>let's MEET John</h2>
+                <p>I believe opportunity, means, and training can bring out the best in anyone. 
+                    I enjoy watching the NFL while eating a slice pizza, I feel personally offended when the wifi cuts out on me, and sometimes I dream about writing a $1M check to support youth education.
+                    
+                </p><p>I value education, health, talking to the people I care about in person, and being challenged when I work. I built this website because I believe that if you want someone to join your organization for the foreseeable future, you should be able to know who they are as a person.</p>
+                <a href="team.html" class="cta-button">What My Team Thinks</a>
+            </div>
             <div class="about-me-video">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
-        <section class="skills">
-            <h2>Interested in working with me?</h2>
-            <div class="skill">
-                <h3>Dedicated Team Player</h3>
-                <p>I thrive in collaborative environments and am committed to achieving team goals. My experience working in diverse teams has equipped me with strong communication and problem-solving skills.</p>
+        <section id="interested">
+            <div class="skill-container">
+                <h2>Interested in Working with Me?</h2>
+                <div class="skills">
+                    <div class="skill">
+                        <h3>Dedicated Team Player</h3>
+                        <p>I bring technical expertise to drive sales success, ensuring that every project aligns with sales goals and fosters a supportive team environment.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Driven Problem Solver</h3>
+                        <p>I create solutions to meet client needs, handling challenges effectively and making complex tasks manageable for my team.</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Customer-Focused Leader</h3>
+                        <p>I foster strong client relationships by understanding and addressing their unique needs, enhancing their experience and satisfaction.</p>
+                    </div>
+                </div>
+                <!-- <a href="experience.html" class="cta-button">Learn More About My Experience</a> -->
             </div>
-            <div class="skill">
-                <h3>Technical Expertise</h3>
-                <p>With a background in computer science, I have developed a solid foundation in software engineering principles. I am proficient in various programming languages and tools, and continuously seek to expand my technical knowledge.</p>
+        </section>
+        <section id="contact">
+            <div class="contact-container">
+                <h2>Contact Me</h2>
+                <p>If you'd like to learn more about how I can contribute to your team, please email me or connect on LinkedIn.</p>
+                <div class="contact-links">
+                    <a href="https://www.linkedin.com/in/daswami" class="contact-button">
+                        <img src="imgs/linkedin.png" alt="LinkedIn"> LinkedIn
+                    </a>
+                    <a href="mailto:daswami@umich.edu" class="contact-button">
+                        <img src="imgs/email2.jpg" alt="Email"> Email
+                    </a>
+                </div>
             </div>
-            <div class="skill">
-                <h3>Client-Focused</h3>
-                <p>I prioritize understanding client needs and delivering solutions that exceed their expectations. My ability to listen, empathize, and provide tailored solutions has been key to building strong client relationships.</p>
-            </div>
-            <button onclick="location.href='portfolio.html'">Learn More</button>
         </section>
     </main>
+
     <footer>
-        <h2>Contact Me</h2>
-        <p>If you'd like to learn more about how I can contribute to your team, 
-            please email me or message me on LinkedIn (preferred).</p>
-        <div class="contact-links">
-            <a href="https://www.linkedin.com/in/johndoe" target="_blank">
-                <img src="images/linkedin-icon.png" alt="LinkedIn">
-            </a>
-            <a href="mailto:daswami@umich.edu">
-                <img src="images/email-icon.png" alt="Email">
-            </a>
+        <div class="container">
+            <p>&copy; 2024 Dilan Swami. All rights reserved.</p>
         </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
