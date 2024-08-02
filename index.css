@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -72,40 +72,40 @@ header h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2em;
+    padding: 5em;
     background-color: #fff;
 }
 
 .hero-text h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 0;
 }
 
 .hero-text p {
-    font-size: 1.2em;
+    font-size: 1.8em;
     margin: 0.5em 0 0 0;
 }
 
 .hero-image img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .trusted-by {
     text-align: center;
-    padding: 2em;
+    padding: 1em;
     background-color: #f1f1f1;
 }
 
 .trusted-by h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 1em;
 }
 
 .company-logos img {
-    margin: 0 15px;
-    width: 100px;
+    margin: 0 2%;
+    width: 15%;
     height: auto;
 }
 
@@ -114,12 +114,13 @@ header h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
     margin: 0 auto;
     position: relative;
     text-align: center;
     padding: 10px;
     margin-top: 4vh;
+    margin-bottom: 4vh;
+    
 }
 .about-me-container::before {
     content: "";
@@ -130,31 +131,33 @@ header h1 {
     width: 60%;
     border-top: 5px solid #003a6c; /* Adjust color and thickness */
 }
-.about-me-container::after {
+/* .about-me-container::after {
     content: "";
     position: absolute;
     height: 60%;
     top: 50%;
-    left: 15%;
+    left: 4vw;
     transform: translateY(-50%);
-    border-left: 5px solid #003a6c; /* Adjust the color and thickness */
-}
+    border-left: 5px solid #003a6c; /* Adjust the color and thickness 
+} */
 .about-me-text {
     flex: 1;
-    padding: 20px;
-    max-width: 500px;
+    padding: 0 4vw;
+    max-width: 750px;
     box-sizing: border-box;
     text-align: center;
+    /* border-left: 5px solid #003a6c; */
 }
 .about-me-text h2 {
     text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
+    font-size: 2.5em;
+    margin-bottom: 3vh;
 }
 .about-me-text p {
     margin-bottom: 20px;
     line-height: 1.6;
     text-align: left;
+    font-size: 1.2em;
 }
 .about-me-video {
     flex: 1;
@@ -166,12 +169,16 @@ header h1 {
     align-items: center;
 }
 #interested {
-    background-color: #f1f1f1;
+    background-color: #333333; /* Dark background for the section */
+    color: #f5f5f5; /* Light text for readability */
+    padding: 40px 0;
 }
+
 .skill-container {
     width: 80%;
     margin: 0 auto;
 }
+
 .skills {
     display: flex;
     flex-direction: row;
@@ -179,46 +186,55 @@ header h1 {
 }
 
 .skill {
-    background-color: #FFFFFF;
-    border: 1px solid #DDDDDD;
+    background-color: #444444; /* Slightly lighter dark background for skill boxes */
+    border: 1px solid #555555; /* Subtle border for distinction */
     padding: 15px;
     border-radius: 5px;
 }
 
 .skill h3 {
-    color: #003a6c; /* Medium Blue for skill titles */
-    font-size: 1.2em;
-    height: 20%;
+    color: #82b4d8; /* Light Blue for skill titles */
+    font-size: 1.4em;
+    margin-bottom: 10px;
 }
 
 .skill p {
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.6;
 }
 
 .skills button {
     display: block;
-    background-color: #4CAF50;
+    background-color: #6AB57A; /* Lighter green for contrast */
     color: white;
     border: none;
     padding: 0.5em 1em;
     cursor: pointer;
     font-weight: bold;
     margin: 2em auto 0 auto;
+    border-radius: 5px;
 }
 
 .skills button:hover {
-    background-color: #45a049;
+    background-color: #5ca56b; /* Slightly darker green on hover */
 }
+
 
 /* Footer Styling */
 footer {
-    background-color: #003a6c; /* Medium Blue for footer */
+    background-color: #333333; /* Medium Blue for footer */
     color: #FFFFFF;
     padding: 10px 0;
     text-align: center;
 }
 
+#contact {
+    background-color: #333333; /* Dark background for the section */
+    color: #f5f5f5;
+    padding: 40px 0;
+    border-top: 5px solid #388e3c;
+    text-align: center;
+}
 
 .contact-links a {
     margin: 0 10px;
@@ -262,6 +278,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 15px;
+    margin-top: 3vh;
 }
 
 .contact-button {
