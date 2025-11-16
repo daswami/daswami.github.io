@@ -1,0 +1,8 @@
+Blue: #818ae7
+
+Orange: #fbbe63
+Light blue: #d4dbfe
+
+Dark orange: #ef7f59
+
+Font: lazydog 
